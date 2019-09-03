@@ -2,7 +2,7 @@ A simple program to receive image data from the Lenkeng LKV373 HDMI-extender.
 
 Contents:
 
-  setup-eth1.sh: Configure eth1 interface
+  setup-eth1.sh: Configure eth1 interface for the TX Unit.
   
   simple_receiver.c: The actual receiver. It provides 25fps of mjpeg via a tcp port
                      configurable with -p. To select the interface that the data
