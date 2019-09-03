@@ -487,7 +487,7 @@ static void lkc_event(struct bufferevent *event, short what, void *userdata)
 
 	for (i = &lkc->lkr->clients; *i != NULL; i = &(*i)->next) {
 		if (*i == lkc) {
-			fprintf(stderr, "Client unlinked :)\n");
+			fprintf(stderr, "Client unlinked\n");
 			*i = lkc->next;
 			break;
 		}
